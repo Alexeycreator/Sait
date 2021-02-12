@@ -1,0 +1,34 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItem {
+  padding: 10px;
+}
+
+.dialogsItem .active {
+  color: purple;
+}
+
+.dialog a {
+  color: purple;
+  text-decoration: none;
+}
+
+.dialog a.activeLink {
+  color: green;
+}
+
+.messeges {
+  padding: 10px;
+}
+
+.messege {
+}
+
+.item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
